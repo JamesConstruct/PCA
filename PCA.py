@@ -3,7 +3,7 @@ import hashlib
 import random
 import base64
 
-copyright = """"
+copyright = """
 Copyright 2017 James Construct
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
