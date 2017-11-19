@@ -20,7 +20,7 @@ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 
 def CreateKey(s, salt="si4kth4g36we8h4m6s5qe87gh0df10"):
     if (len(s) < 8):
-        print("ERROR! Key has to be longer than eight letters or equal.")
+        print("ERROR! Key has to be longer than eight letters.")
         return None
     s, control = EditInput(s, salt)
     key_fin = ""
